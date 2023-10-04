@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #666, #003366);
+  }
+  
+  .container {
+    background-color: rgb(217, 234, 245);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .question {
+    margin-bottom: 20px;
+  }
+  
+.question label {
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #b1afaf;
+    border-radius: 5px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+    width: 100%;
+    max-width: 200px; /* Defina a largura máxima desejada */
+  }
+  
+  .button:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  .question {
+    margin-bottom: 20px;
+    overflow: hidden; /* Adicione essa linha para controlar o layout das perguntas */
+  }
+  
+  .fixed-width {
+    width: 300px; /* Defina a largura fixa desejada para as caixas de texto */
+    resize: none; /* Impede o redimensionamento da caixa de texto */
+  }
+  .container {
+    text-align: center;
+  }
+  
+  .question {
+    margin-bottom: 20px;
+  }
+  
+  .fixed-width {
+    width: 100%; /* 100% da largura da div pai */
+    max-width: 500px; /* Largura máxima desejada */
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    resize: none; /* Impede o redimensionamento da caixa de texto */
+  }
+  
+  .button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 30px;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+    width: 100%;
+    max-width: 200px; /* Defina a largura máxima desejada */
+  }
+  
+  .button:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  h1{
+    color: white;
+  }

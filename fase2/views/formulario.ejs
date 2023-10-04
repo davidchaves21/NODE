@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário</title>
+  <link rel="stylesheet" type="text/css" href="/formulario.css">
+</head>
+<body>
+  <h1 class="header">Sistemas da Informação</h1>
+  <div class="container">
+    <form action="/formulario" method="POST">
+      <div class="question">
+        <label for="pergunta1">Como você acha que o curso de Sistemas da Informação irá abrir caminhos para você?</label>
+        <textarea id="pergunta1" name="pergunta1" rows="4" class="fixed-width" maxlength="255" required></textarea>
+      </div>
+      <div class="question">
+        <label for="pergunta2">Até o momento qual disciplina no curso você se sentiu mais desejo em seguir pelo caminho que ela oferece?</label>
+        <textarea id="pergunta2" name="pergunta2" rows="4" class="fixed-width" maxlength="255" required></textarea>
+      </div>
+      <div class="question">
+        <label for="pergunta3">Qual disciplina que você sente que não deveria estar sendo ofertada no curso?</label>
+        <textarea id="pergunta3" name="pergunta3" rows="4" class="fixed-width" maxlength="255" required></textarea>
+      </div>
+      <div class="question">
+        <label for="pergunta4">Considerando a resposta anterior, qual seria uma sugestão para que ela pudesse ser mais efetiva?</label>
+        <textarea id="pergunta4" name="pergunta4" rows="4" class="fixed-width" maxlength="255" required></textarea>
+      </div>
+      <div class="question">
+        <label for="pergunta5">Você acha que o curso está realmente lhe oferecendo o necessário? Justifique</label>
+        <textarea id="pergunta5" name="pergunta5" rows="4" class="fixed-width" maxlength="255" required></textarea>
+      </div>
+      <button type="submit" class="button">Enviar</button>
+    </form>
+  </div>
+</body>
+</html>
